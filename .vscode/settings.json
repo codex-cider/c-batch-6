@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "xstring": "cpp"
+    },
+    "files.exclude": {
+        "*.exe": true,
+        "tempCodeRunnerFile.c": true,
+        "*.cWithExt": true,
+    }
+}
