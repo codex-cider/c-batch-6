@@ -18,11 +18,14 @@ void main()
 
     for (int i = 0; i < number; i++)
     {
-        for (int j = 0; j < number; j++)
+        for (int j = 0; j < i; j++)
+        {
+            printf("# ");
+        }
+        for (int j = i; j < number; j++)
         {
             printf("* ");
         }
-
         printf("\n");
     }
 }
